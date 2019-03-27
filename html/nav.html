@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>导航条</title>
+	<style>
+	/*预定义样式*/
+		* {margin:0;padding: 0;}
+		ul,li{list-style: none;}
+		a{color:#333;text-decoration: none;}
+		a:hover {color: #fff;text-decoration: underline;}
+	/*导航1*/
+		ul.nav {width: 405px;height: 30px;margin:50px 0 0 50px;}
+		ul.nav li {float: left;border-right: 1px solid #fbfbfb;}
+		ul.nav li a{display: block;width: 100px;height: 30px;background-color: #eee;line-height: 30px;text-align: center;}
+		ul.nav li a:hover {background-color: #333;}
+		ul.nav li ul {position: absolute;display: none;}
+		ul.nav li:hover ul {
+			display: block;
+		}
+	/*导航2*/
+	ul.nav2 {
+		width: 405px;
+		height: 30px;
+		margin:50px 0 0 50px;
+	}
+	ul.nav2 li {
+		float: left;
+		border-right: 1px solid #fbfbfb;
+	}
+	ul.nav2 li a {
+		display: block;
+		width: 100px;
+		height: 30px;
+		background-color: #eee;
+		line-height: 30px;
+		text-align: center;
+
+	}
+	ul.nav2 li a:hover {
+		background-color: #333;
+	}
+	ul.nav2 li  ul {
+		position: absolute;
+		width: 101px;
+		display: none;
+	}
+	ul.nav2 li:hover ul {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+		<li><a href="#">首页</a></li>
+		<li><a href="#">产品中心</a>
+			<ul>
+				<li><a href="#">产品1</a></li>
+				<li><a href="#">产品2</a></li>
+				<li><a href="#">产品3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">客户服务</a>
+			<ul>
+				<li><a href="#">服务1</a></li>
+				<li><a href="#">服务2</a></li>
+				<li><a href="#">服务3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+	<!-- <div class="nav2"></div> -->
+	<ul class="nav2">
+		<li><a href="#">首页</a></li>
+		<li><a href="#">产品中心</a>
+			<ul>
+				<li><a href="#">产品1</a></li>
+				<li><a href="#">产品2</a></li>
+				<li><a href="#">产品3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">客户服务</a>
+			<ul>
+				<li><a href="#">服务1</a></li>
+				<li><a href="#">服务2</a></li>
+				<li><a href="#">服务3</a></li>
+			</ul>
+		</li>
+		<li><a href="#">联系我们</a></li>
+	</ul>
+</body>
+</html>
