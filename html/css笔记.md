@@ -919,7 +919,7 @@ border-radius:
 怪异盒子模型：
 	设置的宽度和高度就是元素在网页中实际占据的宽度和高度。
 	开启怪异盒子模型：
-		box-sizing:border-box|content-box
+		**box-sizing:border-box|content-box**
 	
 弹性盒子模型核心概念：
 	主轴
